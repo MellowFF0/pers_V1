@@ -1,3 +1,7 @@
+.container-fluid {
+	max-width: 100%;
+}
+
 /* NAV BAR */
 #navbar {
 	z-index: 1;
@@ -74,25 +78,169 @@ nav {
 }
 
 .coordinates {
-	float: right;
+	float: left;
 }
 
 /* FONT */
 
 body {
 	font-family: 'Teko', sans-serif;
-	overflow: hidden;
+	overflow: scroll;
+}
+
+/* Portfolio links */
+
+#portfolio {
+	text-align: center;
+	color: #b0baaf;
+}
+.text-title {
+	font-size: 160px;
+	text-decoration: none;
+	color: #b0baaf;
+}
+
+.one:hover {
+	color: #ff00ff;
+	text-decoration: none;
+	-webkit-transition: 1s all;
+	-webkit-transition-delay: 2s;
+	-moz-transition: 1s all;
+	-moz-transition-delay: 2s;
+	-ms-transition: 1s all;
+	-ms-transition-delay: 2s;
+	-o-transition: 1s all;
+	-o-transition-delay: 2s;
+	transition: 1s all;
+	transition-delay: 0s;
+}
+
+.two:hover {
+	color: #8e4585;
+	text-decoration: none;
+	-webkit-transition: 1s all;
+	-webkit-transition-delay: 2s;
+	-moz-transition: 1s all;
+	-moz-transition-delay: 2s;
+	-ms-transition: 1s all;
+	-ms-transition-delay: 2s;
+	-o-transition: 1s all;
+	-o-transition-delay: 2s;
+	transition: 1s all;
+	transition-delay: 0s;
+}
+
+.three:hover {
+	color: #93e9be;
+	text-decoration: none;
+	-webkit-transition: 1s all;
+	-webkit-transition-delay: 2s;
+	-moz-transition: 1s all;
+	-moz-transition-delay: 2s;
+	-ms-transition: 1s all;
+	-ms-transition-delay: 2s;
+	-o-transition: 1s all;
+	-o-transition-delay: 2s;
+	transition: 1s all;
+	transition-delay: 0s;
+}
+
+.four:hover {
+	color: #ff0bac;
+	text-decoration: none;
+	-webkit-transition: 1s all;
+	-webkit-transition-delay: 2s;
+	-moz-transition: 1s all;
+	-moz-transition-delay: 2s;
+	-ms-transition: 1s all;
+	-ms-transition-delay: 2s;
+	-o-transition: 1s all;
+	-o-transition-delay: 2s;
+	transition: 1s all;
+	transition-delay: 0s;
+}
+
+.five:hover {
+	color: #c3f400;
+	text-decoration: none;
+	-webkit-transition: 1s all;
+	-webkit-transition-delay: 2s;
+	-moz-transition: 1s all;
+	-moz-transition-delay: 2s;
+	-ms-transition: 1s all;
+	-ms-transition-delay: 2s;
+	-o-transition: 1s all;
+	-o-transition-delay: 2s;
+	transition: 1s all;
+	transition-delay: 0s;
+}
+
+.six:hover {
+	color: #00bec5;
+	text-decoration: none;
+	-webkit-transition: 1s all;
+	-webkit-transition-delay: 2s;
+	-moz-transition: 1s all;
+	-moz-transition-delay: 2s;
+	-ms-transition: 1s all;
+	-ms-transition-delay: 2s;
+	-o-transition: 1s all;
+	-o-transition-delay: 2s;
+	transition: 1s all;
+	transition-delay: 0s;
+}
+
+.seven:hover {
+	color: #4b0082;
+	text-decoration: none;
+	-webkit-transition: 1s all;
+	-webkit-transition-delay: 2s;
+	-moz-transition: 1s all;
+	-moz-transition-delay: 2s;
+	-ms-transition: 1s all;
+	-ms-transition-delay: 2s;
+	-o-transition: 1s all;
+	-o-transition-delay: 2s;
+	transition: 1s all;
+	transition-delay: 0s;
 }
 
 /* Media queries */
 
+@media (min-width: 1200px) {
+	#portfolio {
+		padding-top: 400px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.hero-text {
+		padding-top: 400px;
+	}
+}
+
+@media (max-width: 767px) {
+	.text-title {
+		font-size: 72px;
+	}
+}
+
+@media (max-width: 767px) {
+	/* Add to remove the logo */
+	.navbar-brand {
+		display: none;
+	}
+}
+
 @media (max-width: 767px) {
 	.hero-text {
 		font-size: 70px;
-		text-align: right;
+		text-align: left;
+		padding-top: 170px;
 	}
 	.coordinates {
 		font-size: 15px;
-		text-align: right;
+		text-align: left;
+		padding-bottom: 300px;
 	}
 }
